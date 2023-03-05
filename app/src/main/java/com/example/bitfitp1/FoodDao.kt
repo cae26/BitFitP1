@@ -13,7 +13,7 @@ interface FoodDao  {
     fun getAll(): Flow<List<FoodEntity>>
 
     @Insert
-    fun insertAll(articles: List<FoodEntity>)
+    fun insertAll(food: List<FoodEntity>)
 
     @Insert
     fun insert(food: FoodEntity)
